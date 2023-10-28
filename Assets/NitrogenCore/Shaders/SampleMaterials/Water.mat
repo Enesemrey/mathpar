@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5368423192935694008
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: -6465566751694194690, guid: 9cc8fdd8efbade545ad17194e6905934,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_F61C2EB9:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex1:
+        m_Texture: {fileID: 2800000, guid: 075dc5989888a0a47a2fa6c95d0865c8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex2:
+        m_Texture: {fileID: 2800000, guid: 3dba4dfbf299f1a4e8815581d4452aa0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex3:
+        m_Texture: {fileID: 2800000, guid: 1c4b822199a10694c839004ee92db00b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_1214E9D7: 1
+    - Vector1_421441F: 0.7
+    - Vector1_9A4D97BE: 0.1
+    - Vector1_B65B78EA: 0.7
+    - Vector1_F6EC3B27: 0.1
+    - _foamLimit: 0.9
+    - _fogBlendCoeff: 1
+    - _fogMaxHeight: -3
+    - _fogStartHeight: -1
+    - _fresnelCutoff: 0.7
+    - _fresnelCutoffSize: 0.1
+    - _fresnelPower: 1
+    - _height: 10
+    - _horizontalCutoff: 0.5
+    - _linearFogDepth: 100
+    - _linearFogEnd: 250
+    - _linearFogPow: 1
+    - _linearFogStart: 100
+    - _maskMultiplier: 2
+    - _shadowCoeff: 1
+    - _shadowCutoff: 0.25
+    - _shadowCutoffSize: 0.1
+    - _shape: 2
+    - _size: 10
+    - _specularIntensity: 0.01
+    - _verticalFogBlend: 1
+    - _verticalFogDepth: 10
+    - _verticalFogStartHeight: -1
+    - _waveColorPow: 7.04
+    m_Colors:
+    - Color_74DC228E: {r: 0, g: 0, b: 0, a: 0.6862745}
+    - Color_935A44CF: {r: 1, g: 1, b: 1, a: 1}
+    - Color_F6F15C0C: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskColor: {r: 1, g: 1, b: 1, a: 1}
+    - _bottomColor: {r: 0.004405493, g: 0.38266668, b: 0.9339623, a: 0}
+    - _colorLimits: {r: -5, g: -3, b: 0, a: 0}
+    - _fogColor: {r: 0, g: 0.75504446, b: 1, a: 1}
+    - _fresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _linearFogColor: {r: 0, g: 0.75504446, b: 1, a: 1}
+    - _middleColor: {r: 0.28773582, g: 0.8184425, b: 1, a: 0}
+    - _noiseHeight: {r: 0.1, g: 0.2, b: 0.1, a: 0}
+    - _noiseScale: {r: 0.6, g: 0.2, b: 0.05, a: 0}
+    - _noiseSpeed: {r: -0.5, g: 0.5, b: 0.1, a: 0}
+    - _shadowColor: {r: 0, g: 0, b: 0, a: 0.6862745}
+    - _textureTiling: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _tint: {r: 1, g: 1, b: 1, a: 1}
+    - _topColor: {r: 1, g: 1, b: 1, a: 1}
+    - _waveColor: {r: 0, g: 0.4799351, b: 1, a: 0}
+    - _worldPos: {r: 0, g: 0, b: 0, a: 0}
+    - _xzOffset: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
